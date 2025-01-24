@@ -11,16 +11,35 @@ main .hero-container {
 main .hero {
     position: relative;
     padding: 32px;
-    min-height: 300px;
+    min-height: 612px;
     color: var(--background-color);
 }
 
 main .hero .hero-body {
-    max-width: 1200px;
-    margin-left: auto;
+    max-width: 550px;
+    margin-left: 15%;
+	margin-top:5%;
     margin-right: auto;
     position: relative;
     z-index: 1;
+}
+
+main .hero .hero-body h1{
+	text-align: left;
+	font-size: 48px !important;
+	line-height: 57px !important;
+	font-family: Roboto400,sans-serif !important;
+	letter-spacing: normal !important;
+	text-transform: none !important;
+	font-weight: 200 !important;
+	opacity: .95;
+}
+
+main .hero .hero-body p{
+	text-align: left;
+font-size: 1.4375rem;
+line-height: 2.1875rem;
+	opacity: .95;
 }
 
 
