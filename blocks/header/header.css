@@ -8,8 +8,8 @@ header nav {
   align-items: center;
   position: fixed;
   z-index: 200;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   width: 100vw;
   height: var(--nav-height);
   box-sizing: border-box;
