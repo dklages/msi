@@ -45,6 +45,7 @@ header nav .nav-brand p {
 
 header nav .nav-brand img {
   width: 263px;
+  max-width: max-content;
 }
 
 /* hamburger */
