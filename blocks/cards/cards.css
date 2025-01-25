@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
     grid-gap: 16px;
 }
 
@@ -14,6 +14,7 @@
 
 .cards .cards-card-body {
     margin: 16px;
+	text-align: center;
 }
 
 .cards .cards-card-image {

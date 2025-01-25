@@ -252,7 +252,9 @@ border-bottom: 1px solid #d8d8d8;
     height: auto;
 }
 
-
+.grey-background{
+	background-color: #fafafa !important;
+}
 
 .red-background{
 	background-color:red;
@@ -394,12 +396,17 @@ img {
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;
   }
-
+	
+  .section.grey-background > div {
+	max-width: 100%;
+	}
+	
   .section > div {
     max-width: 1200px;
     margin: auto;
   }
 }
+
 
 main .section.highlight {
   background-color: var(--highlight-background-color);
