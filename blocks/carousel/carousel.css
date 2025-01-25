@@ -42,7 +42,7 @@ main .carousel div.carousel-text {
   max-width: 1200px;
   margin: 0 auto;
   background-color: white;
-  min-height: 188px;
+  min-height: 95px;
   padding: 0 28px;
 }
 
@@ -67,6 +67,7 @@ main .carousel::-webkit-scrollbar {
 
 main .carousel-wrapper {
   max-width: unset;
+  padding-top: 100px;
 }
 
 main .carousel-wrapper .carousel-buttons {
